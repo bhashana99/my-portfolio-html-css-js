@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+        <nav id="desktop-nav">
+            <div class="logo"><img src="./assets/images/logo.png" alt=""></div>
+            <div >
+               <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+               </ul>
+            </div>
+            <img src="./assets/images/moon.png" id="mode-icon" title="dark mode" alt="" >
+    
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo"><img src="./assets/images/mylogo.jpeg" alt=""></div>
+            <div class="hamburger-menu"> 
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        <li onclick="toggleMenu()"><a href="#about">ABOUT</a></li>
+                        <li onclick="toggleMenu()"><a href="#experience">EXPERIENCE</a></li>
+                        <li onclick="toggleMenu()"><a href="#projects">PROJECTS</a></li>
+                        <li onclick="toggleMenu()"><a href="#contact">CONTACT</a></li>
+                        
+                    </ul>
+                    <!-- <img src="./assets/images/moon.png" id="mode-icon" title="dark mode" alt=""> -->
+
+                </div>
+                
+            </div>
+        </nav>
+    
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="./assets/images/Profile Photo Light.png" alt="Bhashana Chamodya profile photo" id="profile-photo">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title">Bhashana Chamodya</h1>
+                <p class="section_text_p2"> a Web Designer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/cv.pdf')">
+                    Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info</button>
+    
+                </div>
+                <div id="socials-container">
+                    <i class="fa-brands fa-linkedin" onclick="location.href='https:linkedin.com/in/bhashana-chamodya' "  ></i>
+                    <i class="fa-brands fa-github" onclick="location.href='https:github.com/bhashana99'" ></i>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section_text_p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="./assets/images/about-pic2.jpg" alt="Bhashana Chamodya about photo" class="about-pic" id="about-photo">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-container">
+                        <div class="details-container">
+                            <img src="./assets/images/ex-removebg-preview.png"  alt="EXPERIENCE icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>1+ years <br>Full Stack Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/images/edu-removebg-preview.png" alt="education icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B.Sc. (Hons) in Software Engineering <br>Undergraduate (Level ii) <br>University of Kelaniya</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>I'm Bhashana Chamodya, a dedicated full-stack web developer with over a year of professional experience. Currently pursuing a B.Sc.(Hons) in Software Engineering at the University of Kelaniya. <br> <br>
+                        <b>My Journey</b><br>I'm passionate about crafting dynamic web solutions that blend creativity with functionality. From e-commerce to robust web apps, I've honed my skills to create engaging user experiences. <br><br> <b>Let's Collaborate</b><br>Ready to bring your web project to life? Explore my portfolio and connect with me to discuss how we can work together.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <img src="./assets/images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Bootstrap</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Sass/SCSS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>TypeScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Node.js</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>PHP</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Experience</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        </section>
+    
+        <section id="projects">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/images/ums.png"  alt="project 1" class="project-img">
+                        <h2 class="experience-sub-title project-title">UMS <br>Admin Panel</h2>
+                        
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/bhashana99/user-management-system'">Github</button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/images/quizApp.png"  alt="project 2" class="project-img">
+                        <h2 class="experience-sub-title project-title">Sample Quiz App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/bhashana99/quiz-app'">Github</button>
+                        </div>
+                    </div>
+                </div>
+                    <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/images/todo.png" alt="project 3" class="project-img">
+                        <h2 class="experience-sub-title project-title">To Do List App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/bhashana99/to-do-list-app'">Github</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/images/weather.png"  alt="project 3" class="project-img">
+                        <h2 class="experience-sub-title project-title">Weather App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='https:/github.com/bhashana99/weather-app-js'">Github</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <img src="./assets/images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p><a href="mailto:bhashanachamodya99@gmail.com">bhashanachamodya99@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p><a href="linkedin.com/in/bhashana-chamodya">LinkedIn</a></p>
+                </div>
+                
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container" >
+                    <ul class="nav-links">
+                     <li><a href="#about">ABOUT</a></li>
+                     <li><a href="#experience">EXPERIENCE</a></li>
+                     <li><a href="#projects">PROJECTS</a></li>
+                     <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                 </div>
+            </nav>
+            <p>Copyright &#169; 2023 Sep Bhashana Chamodya. All Right Reserved. </p>
+        </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
